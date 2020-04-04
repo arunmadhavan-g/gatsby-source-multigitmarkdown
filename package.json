@@ -1,5 +1,5 @@
 {
-  "name": "gatsby-github-multisource-plugin",
+  "name": "gatsby-source-multigitmarkdown",
   "version": "1.0.0",
   "description": "",
   "main": "gatsby-node.js",
@@ -13,5 +13,6 @@
     "remark-html": "^11.0.1",
     "remark-parse": "^7.0.1",
     "unified": "^8.4.1"
-  }
+  },
+  "keywords": ["gatsby", "gatsby-plugin"]
 }
