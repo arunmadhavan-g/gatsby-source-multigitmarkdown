@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Arun Madhavan <arunmadhavan.g@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.19.2",
@@ -14,5 +14,12 @@
     "remark-parse": "^7.0.1",
     "unified": "^8.4.1"
   },
-  "keywords": ["gatsby", "gatsby-plugin"]
+  "keywords": ["gatsby", "gatsby-plugin"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arunmadhavan-g/gatsby-source-multigitmarkdown"
+  },
+  "bugs": {
+    "url": "https://github.com/arunmadhavan-g/gatsby-source-multigitmarkdown/issues"
+  }
 }
