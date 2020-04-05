@@ -1,6 +1,6 @@
 {
   "name": "gatsby-source-multigitmarkdown",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Gatsby Source plugin to read from multiple md file sources across different repositories",
   "main": "src/gatsby-node.js",
   "scripts": {
