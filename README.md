@@ -1,7 +1,5 @@
 # gatsby-source-multigitmarkdown
 
-## Description
-
 The plugin is a source plugin that helps in pulling content of MD files from different github repositories. 
 It can also be configured to get content from same repository but different md files. 
 Each md file content and it's configured metadata is created as a node in an array of nodes. 
@@ -99,7 +97,7 @@ module.exports = {
 ```
 
 The data can be queried using the following graphQL query
-```js
+```
 query MyQuery {
   allMultiGitSource {
     edges {
@@ -154,7 +152,7 @@ exports.createPages = async ({ graphql, actions: { createPage } }) =>
 The data is made available as part of `allMultiGitSource` node. 
 Contents can be queried using a query like below. 
 
-```js
+```
 query MyQuery {
   allMultiGitSource {
     edges {
