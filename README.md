@@ -7,7 +7,7 @@ It can also be configured to get content from same repository but different md f
 Each md file content and it's configured metadata is created as a node in an array of nodes. 
 
 
-### Dependencies (optional)
+### Dependencies
 
 The project used the following libraries 
  - axios (for making the http call to fetch content)
@@ -51,7 +51,7 @@ module.exports = {
 }
 ```
 
-## Available options (if any)
+## Available options
 
 | Options | Description |
 | --- | --- |
@@ -149,7 +149,7 @@ exports.createPages = async ({ graphql, actions: { createPage } }) =>
   })
 ```
 
-## How to query for data (source plugins only)
+## How to query for data
 
 The data is made available as part of `allMultiGitSource` node. 
 Contents can be queried using a query like below. 
@@ -173,9 +173,3 @@ query MyQuery {
   }
 }
 ``` 
-## How to run tests
-
-## How to develop locally
-
-## How to contribute
-
