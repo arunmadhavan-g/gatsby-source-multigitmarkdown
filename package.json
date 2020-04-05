@@ -1,6 +1,6 @@
 {
   "name": "gatsby-source-multigitmarkdown",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Gatsby Source plugin to read from multiple md file sources across different repositories",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,7 +12,7 @@
     "remark-parse": "^8.0.0",
     "unified": "^9.0.0"
   },
-  "keywords": ["gatsby", "gatsby-plugin"],
+  "keywords": ["gatsby", "gatsby-plugin", "gatsby-source", "markdown" , "multiple git"],
   "repository": {
     "type": "git",
     "url": "https://github.com/arunmadhavan-g/gatsby-source-multigitmarkdown"
