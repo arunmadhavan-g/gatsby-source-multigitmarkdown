@@ -8,7 +8,7 @@
   },
   "author": "Arun Madhavan <arunmadhavan.g@gmail.com>",
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "remark-html": "^11.0.1",
     "remark-parse": "^8.0.0",
     "unified": "^9.0.0"
